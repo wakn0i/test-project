@@ -58,6 +58,7 @@ public class Receipt {
 		System.out.println("Unit price : " + String.format("%.2f", price_item2));
 		System.out.println("Amount : " + String.format("%.2f", total_price_item2));
 		
+		//Display results
 		System.out.println("Subtotal = RM" + String.format("%.2f", subtotal) );	
 		System.out.println("Tax = RM" + String.format("%.2f", government_tax) );
 		System.out.println("Service charge = RM" + String.format("%.2f", service_charge) );
